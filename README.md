@@ -54,7 +54,9 @@ The same Pb+Pb centrality, comparing $\pi^\pm$, $K^\pm$ and $p/\bar p$. Solid an
 
 ## Default simulation setup
 
-The [configs](configs/) directory contains one default physical parameter set for Au+Au at 200 GeV and Pb+Pb at 2.76 and 5.02 TeV. All three XMLs select 30–40% centrality. Change `centrality-low` and `centrality-high` for other classes, such as 0–5%. The supplied XMLs make the relevant framework fallback settings explicit.
+The [configs](configs/) directory contains one default physical parameter set for Au+Au at 200 GeV and Pb+Pb at 2.76 and 5.02 TeV. All three XMLs select 30–40% centrality. Change `centrality-low` and `centrality-high` for other classes, such as 0–5%. The supplied XMLs make the relevant framework fallback settings explicit. They are reference inputs for new simulations; the notebook uses bundled saved numerical results.
+
+The shared Grad reference uses `reduced-thickness=0.063`, `fluctuation=k=1/1.05²≈0.907029`, and `nucleon-min-dist=2.97^(1/3)≈1.437426` fm. Here `fluctuation` is the TRENTo gamma shape, obtained from the calibrated standard deviation. The inelastic NN cross sections are 4.2, 6.4 and 7.0 fm² at 200 GeV, 2.76 TeV and 5.02 TeV, respectively; the corresponding normalizations are 5.73, 14.2 and 18.8.
 
 The papers describe JETSCAPE v3.7. The version reference for these XMLs and supporting inputs is **v3.7.1**, with the following component revisions:
 

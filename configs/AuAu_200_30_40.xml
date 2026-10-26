@@ -25,7 +25,7 @@
           </PhysicsInputs>
       <CutInputs centrality-low="30" centrality-high="40">
           </CutInputs>
-      <TransInputs reduced-thickness="0.063" fluctuation="1.05" nucleon-width="1.12" nucleon-min-dist="1.437">
+      <TransInputs reduced-thickness="0.063" fluctuation="0.907029" nucleon-width="1.12" nucleon-min-dist="1.437426">
           </TransInputs>
       <LongiInputs mean-coeff="1.0" std-coeff="3.0" skew-coeff="0.0" skew-type="1" jacobian="0.8">
           </LongiInputs>
